@@ -1,0 +1,18 @@
+[{
+    "id":1,
+    "name": "Drum",
+    "descr": "Simple website",
+    "img": "https://ibb.co/Sm3FjqL",
+    "images": "https://ibb.co/cLbDBxk",
+    "github": "https://github.com/VinczeDaniel2/Concert",
+    "hosted": "https://vinczedaniel2.github.io/Concert/"
+
+},{
+    "id":2,
+    "name": "Travel Agency",
+    "descr": "Website for a travelling agency",
+    "img": "https://ibb.co/C93Rq7k",
+    "images": "https://ibb.co/fSnVPrk",
+    "github": "https://github.com/VinczeDaniel2/Travel-Agency",
+    "hosted": "https://vinczedaniel2.github.io/Travel-Agency/"
+}]

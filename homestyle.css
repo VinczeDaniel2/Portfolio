@@ -1,0 +1,250 @@
+body,
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+#midSectionTitle_Container{
+  position:fixed;
+  background-color:;
+  width: 100%;
+  margin-top:10%;
+}
+
+#left{
+  background-color:;
+  float:left;
+  width:50%;
+  height:100%;
+}
+
+
+#left > div{
+  background-color:; 
+  float:right; 
+  width:100%; 
+}
+
+#ejrLogo{
+  width:50%; 
+  height:50%;
+  border-radius: 50%;
+  float:right;
+  padding-top:5%;
+}
+
+#right{
+  background-color:;
+  float:right;
+  width:50%;
+  height:100%;
+}
+
+#slantedLine{
+  position:relative;
+  float:left;
+  left:-30px;
+  width: 10%;
+  height: 100%;
+  border-right: 5px solid black; 
+  margin-top:-5px;
+  transform: rotate(15deg)
+}
+
+
+#rightText{
+  color: red;
+  margin-top:5%;
+  margin-left:10%;
+  width:100%; 
+}
+
+#rightText > h1{
+  margin-bottom:15px;
+  font-size:40px;
+  font-family: 'Kelly Slab', cursive;
+}
+
+#letterE{
+  color :rgb(204, 173, 0); 
+}
+
+#rightText > p{
+  color:grey;
+  font-style:italic;
+  font-size:20px;
+  font-family: 'Fanwood Text', serif;
+}
+
+
+#socialMediaIcons{
+  position: relative;
+  left:-10px;
+  background-color:; 
+  width: 100%;
+  height: 50px; 
+}
+
+#socialMediaIcons ul { 
+  float:left;
+  position:fixed;
+  background-color:; 
+  width:500px; 
+  height:55px;
+  list-style-type: none;
+}
+
+#socialMediaIcons ul li {
+    display: inline-block;
+    border:2px solid transparent;
+    -webkit-transition:0.9s;
+    background-color:;
+    margin:5px 10px 0 0;
+    border-radius: 50%;
+}
+
+
+#socialMediaIcons ul li:hover{
+   border:2px solid rgb(212,175,55);
+}
+
+#socialMediaIcons ul li a.link {
+  text-decoration: none;
+}
+
+#socialMediaIcons ul li a .icon {
+      color: grey;
+      display: table-cell;
+      vertical-align: middle; 
+      text-align: center;
+      text-decoration: none;
+      height: 35px;
+      width: 35px;  
+      font-size:17px;
+}
+
+#socialMediaIcons ul li a .icon:hover{
+  color: rgb(212,175,55);
+}
+
+#socialMediaIcons ul li a {
+  list-style-type: none;
+  text-decoration:none;
+}
+
+body { 
+ width: 100%;
+ height: 100%;
+ font-family: Arial, Helvetica;
+ letter-spacing: 0.02em;
+  font-weight: 400;
+ -webkit-font-smoothing: antialiased; 
+  overflow:hidden;
+}
+
+.blurred-box{
+  top:0;
+  left:0;
+  position: fixed; 
+  width:85px;
+  height: 100%;
+  background: inherit;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.blurred-box:after{
+ content: '';
+ width: 300px;
+ height: 100%;
+ background: inherit; 
+ position: absolute;
+ left: -25px;
+ left position
+ right: 0;
+ top: -25px;  
+ top position 
+ bottom: 0;
+ box-shadow:inset 0 0 0 200px rgba(255,255,255,0.05);
+ filter: blur(10px);
+}
+
+
+
+
+
+.flex-container {
+  list-style: none;
+  padding: 0;
+  left: 0;
+  background-color:transparent; 
+  display: inline-block;
+  height: 100vh;
+  width:85px; 
+  position: absolute;
+}
+
+.flex-container > div {
+  display: flex;
+  cursor: pointer;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  margin-bottom: -1px;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  color: #ffffff; 
+  background-color:transparent; 
+}
+
+.flex-container > div > li {
+  cursor: pointer;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  margin-bottom: -1px;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  color: #ffffff;
+  background-color:transparent;
+}
+
+.slideLeft {
+  position:relative;
+  background-color:;
+  left:7px;
+  width:200px;
+  height:100%;
+  display: none;
+  margin-left:100%;
+  text-align:center;
+  border-right:3px solid rgb(204, 173, 0);
+  border-top:0.5px solid rgba(0, 0, 0, 0.12);
+  border-bottom:0.5px solid rgba(0, 0, 0, 0.12);
+}
+
+
+.sideTab:hover .slideLeft, li {
+    display: block;
+}
+
+.sideTab:hover{
+  border-right:3px solid rgb(204, 173, 0);
+}
+
+.sidebarIcon{
+  background-color:transparent;
+   float:left; 
+   margin-left:10px; 
+   padding: 20px 25px 20px 25px;
+}
+
+.sidebarIcon:hover{
+  color:gold;
+  transition:0.3s;
+}
